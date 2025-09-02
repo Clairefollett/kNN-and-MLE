@@ -2,7 +2,7 @@ import numpy as np
 import time
 
 def main():
-    # Random 3-dimensional data and some labels for us
+    # Random 3-dimensional data and some labels
     example_train_x = np.array([ [ 1, 0, 2], [3, -2, 4], [5, -2, 4],
                                  [ 4, 2, 1.5], [3.2, np.pi, 2], [-5, 0, 1]])
     example_train_y = np.array([[0], [1], [1], [1], [0], [1]])
